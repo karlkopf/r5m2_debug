@@ -99,8 +99,8 @@ END
 Label: Camera Date and Time
 Readonly: 0
 Type: DATE
-Current: 1727427164
-Printable: Fri Sep 27 10:52:44 2024
+Current: 1727440126
+Printable: Fri Sep 27 14:28:46 2024
 Help: Use 'now' as the current time when setting.
 
 END
@@ -108,8 +108,8 @@ END
 Label: Camera Date and Time
 Readonly: 0
 Type: DATE
-Current: 1727427164
-Printable: Fri Sep 27 10:52:44 2024
+Current: 1727440126
+Printable: Fri Sep 27 14:28:46 2024
 Help: Use 'now' as the current time when setting.
 
 END
@@ -138,6 +138,18 @@ Choice: 0 1
 END
 /main/settings/ownername
 Label: Owner Name
+Readonly: 0
+Type: TEXT
+Current: 
+END
+/main/settings/artist
+Label: Artist
+Readonly: 0
+Type: TEXT
+Current: 
+END
+/main/settings/copyright
+Label: Copyright
 Readonly: 0
 Type: TEXT
 Current: 
@@ -255,7 +267,7 @@ END
 Label: Device Version
 Readonly: 1
 Type: TEXT
-Current: 3-1.0.0
+Current: 3-1.0.1
 END
 /main/status/vendorextension
 Label: Vendor Extension
@@ -273,7 +285,13 @@ END
 Label: Battery Level
 Readonly: 1
 Type: TEXT
-Current: 100%
+Current: 27%
+END
+/main/status/batterylevel
+Label: Battery Level
+Readonly: 1
+Type: TEXT
+Current: 50%
 END
 /main/status/mirrorlockstatus
 Label: Mirror Lock Status
@@ -293,11 +311,17 @@ Readonly: 1
 Type: TEXT
 Current: RF24-105mm F4 L IS USM
 END
+/main/status/eosserialnumber
+Label: Serial Number
+Readonly: 1
+Type: TEXT
+Current: 143302101663
+END
 /main/status/availableshots
 Label: Available Shots
 Readonly: 1
 Type: TEXT
-Current: 0
+Current: 54515
 END
 /main/status/eosmovieswitch
 Label: Movie Switch
@@ -805,17 +829,17 @@ END
 Label: Aperture
 Readonly: 0
 Type: RADIO
-Current: 1
+Current: 10
 Choice: 0 Unknown value 0f00
-Choice: 1 1
+Choice: 1 10
 END
 /main/capturesettings/shutterspeed
 Label: Shutter Speed
 Readonly: 0
 Type: RADIO
-Current: auto
+Current: 1/320
 Choice: 0 Unknown value 1500
-Choice: 1 auto
+Choice: 1 1/320
 END
 /main/capturesettings/meteringmode
 Label: Metering Mode
@@ -866,4 +890,39 @@ Readonly: 0
 Type: RADIO
 Current: Off
 Choice: 0 Off
+END
+/main/other/d402
+Label: Friendly Device Name
+Readonly: 1
+Type: TEXT
+Current: Canon EOS R5m2
+END
+/main/other/d407
+Label: Perceived Device Type
+Readonly: 1
+Type: TEXT
+Current: 1
+END
+/main/other/d406
+Label: Session Initiator Info
+Readonly: 0
+Type: TEXT
+Current: Unknown Initiator
+END
+/main/other/d303
+Label: PTP Property 0xd303
+Readonly: 1
+Type: TEXT
+Current: 1
+END
+/main/other/5001
+Label: Battery Level
+Readonly: 1
+Type: MENU
+Current: 27
+Choice: 0 100
+Choice: 1 0
+Choice: 2 75
+Choice: 3 0
+Choice: 4 50
 END

@@ -1,7 +1,7 @@
 Label: Aperture
 Readonly: 0
 Type: RADIO
-Current: 1
+Current: 10
 Choice: 0 Unknown value 0f00
-Choice: 1 1
+Choice: 1 10
 END
