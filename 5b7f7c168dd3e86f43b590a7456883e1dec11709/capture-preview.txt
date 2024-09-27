@@ -1,2 +1,1 @@
-*** Error (-10: 'Timeout reading from or writing to the port') ***       
-
+Saving file as capture_preview.jpg

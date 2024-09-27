@@ -255,14 +255,14 @@ UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 20 00
 UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
 UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
 UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
 UNKNOWN Camera Status 1
 UNKNOWN PTP Property d11b changed, "availableshots" to "54512"
-UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
-UNKNOWN Button 4
 UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 4
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
+UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 3
 UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
@@ -283,9 +283,9 @@ UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
 UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
 UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
 UNKNOWN PTP Property d11b changed, "availableshots" to "54511"
+UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 4
-UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
 UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
@@ -309,9 +309,9 @@ UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 20 00
 UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
 UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
 UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
+UNKNOWN PTP Property d11b changed, "availableshots" to "54511"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 4
-UNKNOWN PTP Property d11b changed, "availableshots" to "54511"
 UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
