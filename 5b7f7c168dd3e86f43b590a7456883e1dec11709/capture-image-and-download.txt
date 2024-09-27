@@ -1,7 +1,2 @@
-
-*** Error ***              
-Canon EOS Full-Press failed (0x2019: PTP Device Busy)
 ERROR: Could not capture image.
 ERROR: Could not capture.
-*** Error (-110: 'I/O in progress') ***       
-
