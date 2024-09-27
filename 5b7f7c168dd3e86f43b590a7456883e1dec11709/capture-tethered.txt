@@ -1,0 +1,3 @@
+Waiting for events from camera. Press Ctrl-C to abort.
+
+Cancelling...

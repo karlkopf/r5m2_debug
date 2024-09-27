@@ -1,0 +1,5 @@
+Waiting for events from camera. Press Ctrl-C to abort.
+*** Error (-10: 'Timeout reading from or writing to the port') ***       
+
+
+Cancelling...

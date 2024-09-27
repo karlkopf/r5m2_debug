@@ -1,0 +1,5 @@
+
+*** Error ***              
+Canon EOS Half-Press failed (0x02fa: PTP Timeout)
+ERROR: Could not capture image.
+ERROR: Could not capture.
