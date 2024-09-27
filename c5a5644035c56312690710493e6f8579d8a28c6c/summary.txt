@@ -21,5 +21,5 @@ Friendly Device Name      (d402 ro str): 'Canon EOS R5m2'
 Perceived Device Type     (d407 ro u32): 1
 Session Initiator Info    (d406 rw str): 'Unknown Initiator'
 [Unknown Property]        (d303 ro u8 ): 1
-Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 46% (46)
+Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 10% (10)
 
