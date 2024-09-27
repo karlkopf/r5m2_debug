@@ -1,7 +1,7 @@
 Camera summary:
 Manufacturer: Canon.Inc
 Model: Canon EOS R5m2
-  Version: 3-1.0.0
+  Version: 3-1.0.1
   Serial Number: 61d2b9efcb43a2a698e44599417a693
 Vendor Extension ID: 0xb (1.0)
 Vendor Extension Description: 
@@ -21,5 +21,5 @@ Friendly Device Name      (d402 ro str): 'Canon EOS R5m2'
 Perceived Device Type     (d407 ro u32): 1
 Session Initiator Info    (d406 rw str): 'Unknown Initiator'
 [Unknown Property]        (d303 ro u8 ): 1
-Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 63% (63)
+Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 41% (41)
 
