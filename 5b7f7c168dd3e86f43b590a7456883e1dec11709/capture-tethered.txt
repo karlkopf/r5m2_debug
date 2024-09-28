@@ -1,15 +1,21 @@
 Waiting for events from camera. Press Ctrl-C to abort.
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
 UNKNOWN PTP Property d116 changed, "model" to "2147484822"
-UNKNOWN PTP Property d105 changed, "autoexposuremode" to "P"
-UNKNOWN PTP Property d138 changed, "autoexposuremodedial" to "P"
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "auto"
-UNKNOWN PTP Property d101 changed, "aperture" to "1"
+UNKNOWN PTP Property d105 changed, "autoexposuremode" to "Manual"
+UNKNOWN PTP Property d138 changed, "autoexposuremodedial" to "Manual"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN PTP Property d101 changed, "aperture" to "22"
 UNKNOWN PTP Property d103 changed, "iso" to "16000"
 UNKNOWN PTP Property d106 changed, "drivemode" to "Single"
-UNKNOWN PTP Property d108 changed, "focusmode" to "AI Focus"
+UNKNOWN PTP Property d108 changed, "focusmode" to "Manual"
 UNKNOWN PTP Property d107 changed, "meteringmode" to "Evaluative"
 UNKNOWN PTP Property d109 changed, "whitebalance" to "Auto"
-UNKNOWN PTP Property d11b changed, "availableshots" to "54515"
+UNKNOWN PTP Property d11b changed, "availableshots" to "325"
 UNKNOWN PTP Property d104 changed, "exposurecompensation" to "0"
 UNKNOWN PTP Property d10c changed, "whitebalanceadjustb" to "0"
 UNKNOWN PTP Property d10b changed, "whitebalanceadjusta" to "0"
@@ -17,7 +23,7 @@ UNKNOWN PTP Property d10e changed, "whitebalancexb" to "0"
 UNKNOWN PTP Property d10d changed, "whitebalancexa" to "0"
 UNKNOWN PTP Property d1d9 changed, "aeb" to "off"
 UNKNOWN PTP Property d1d5 changed
-UNKNOWN PTP Property d1c1 changed, "alomode" to "Standard (disabled in manual exposure)"
+UNKNOWN PTP Property d1c1 changed, "alomode" to "x3"
 UNKNOWN PTP Property d10f changed, "colorspace" to "sRGB"
 UNKNOWN PTP Property d114 changed, "autopoweroff" to "0"
 UNKNOWN PTP Property d1b7 changed
@@ -86,7 +92,7 @@ UNKNOWN PTP Property d11c changed
 UNKNOWN PTP Property d113 changed, "syncdatetime" to "Unhandled type"
 UNKNOWN PTP Property d1a7 changed
 UNKNOWN PTP Property d112 changed
-UNKNOWN PTP Property d111 changed, "batterylevel" to "50%"
+UNKNOWN PTP Property d111 changed, "batterylevel" to "100%"
 UNKNOWN PTP Property d1d8 changed, "lensname" to "RF24-105mm F4 L IS USM"
 UNKNOWN PTP Property d1da changed
 UNKNOWN PTP Property d17e changed
@@ -94,7 +100,7 @@ UNKNOWN PTP Property d17c changed, "syncdatetimeutc" to "Unhandled type"
 UNKNOWN PTP Property d11f changed
 UNKNOWN PTP Property d11f changed
 UNKNOWN PTP Property d11f changed
-UNKNOWN PTP Property d11e changed, "storageid" to "00020000"
+UNKNOWN PTP Property d11e changed, "storageid" to "00020001"
 UNKNOWN PTP Property d233 changed
 UNKNOWN PTP Property d139 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
@@ -220,14 +226,15 @@ UNKNOWN PTP Property d234 changed
 UNKNOWN PTP Property d235 changed
 UNKNOWN PTP Property d236 changed
 UNKNOWN PTP Property d249 changed
+UNKNOWN CTGInfoCheckComplete 0x00020001
 UNKNOWN unhandled EOS event PowerZoomInfoChanged (size 12)
 UNKNOWN Button 1
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "auto"
-UNKNOWN PTP Property d101 changed, "aperture" to "1"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN PTP Property d101 changed, "aperture" to "22"
 UNKNOWN PTP Property d103 changed, "iso" to "16000"
-UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 00 00 00 
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 01 01 45 
 UNKNOWN OLCInfo event 0x0020, 6 bytes: 00 00 00 00 00 00 
-UNKNOWN OLCInfo exposure indicator 1,1,0.0 (00 00 00 00 00 )
+UNKNOWN OLCInfo exposure indicator 0,0,0.0 (00 00 00 00 00 )
 UNKNOWN OLCInfo event 0x0080, 5 bytes: 00 00 01 00 00 
 UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 00 00 
 UNKNOWN OLCInfo event 0x0200, 5 bytes: 00 00 00 00 00 
@@ -238,93 +245,78 @@ UNKNOWN PTP Property d115 changed, "ownername" to ""
 UNKNOWN PTP Property d1d0 changed, "artist" to ""
 UNKNOWN PTP Property d1d1 changed, "copyright" to ""
 UNKNOWN PTP Property d1af changed, "eosserialnumber" to "143302101663"
-UNKNOWN PTP Property d11b changed, "availableshots" to "54515"
-UNKNOWN PTP Property d11c changed
-UNKNOWN PTP Property d11b changed, "availableshots" to "54515"
-UNKNOWN PTP Property d11c changed
-UNKNOWN PTP Property d11b changed, "availableshots" to "54515"
-UNKNOWN PTP Property d11c changed
-UNKNOWN PTP Property d11b changed, "availableshots" to "54515"
+UNKNOWN PTP Property d1b7 changed
+UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 00 00 00 00 
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 20 00 
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 80 00 
 UNKNOWN Camera Status 1
-UNKNOWN PTP Property d11b changed, "availableshots" to "54512"
+UNKNOWN StorageInfoChanged 0x00020001
+UNKNOWN PTP Property d11b changed, "availableshots" to "324"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 4
-UNKNOWN PTP Property d1b7 changed
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 45 
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 44 
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
-UNKNOWN Button 3
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 00 00 
 UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 3
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN PTP Property d11b changed, "availableshots" to "325"
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 45 
+UNKNOWN PTP Property d1b7 changed
+CAPTURECOMPLETE
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 01 01 45 
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 1
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
 UNKNOWN OLCInfo event 0x0200, 5 bytes: 00 00 00 00 00 
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 00 00 00 00 
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 20 00 
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
-UNKNOWN PTP Property d11b changed, "availableshots" to "54511"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 80 00 
+UNKNOWN Camera Status 1
+UNKNOWN StorageInfoChanged 0x00020001
+UNKNOWN PTP Property d11b changed, "availableshots" to "324"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 4
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 45 
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 44 
 UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 3
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 00 00 
-UNKNOWN PTP Property d11b changed, "availableshots" to "54512"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
 UNKNOWN PTP Property d1b7 changed
+CAPTURECOMPLETE
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 01 01 44 
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 1
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
 UNKNOWN OLCInfo event 0x0200, 5 bytes: 00 00 00 00 00 
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 00 00 00 00 
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
-UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 20 00 
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 01 00 
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN OLCInfo event 0x0200, 5 bytes: 01 01 00 80 00 
+UNKNOWN Camera Status 1
+UNKNOWN StorageInfoChanged 0x00020001
+UNKNOWN PTP Property d11b changed, "availableshots" to "323"
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 4
-UNKNOWN PTP Property d11b changed, "availableshots" to "54511"
-UNKNOWN PTP Property d1b7 changed
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 44 
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 43 
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 2
-UNKNOWN PTP Property d1b2 changed, "depthoffield" to "0"
-UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
-UNKNOWN Button 3
-UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
-UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 00 00 
 UNKNOWN PTP Property d1b7 changed
 UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 3
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN PTP Property d1b7 changed
+CAPTURECOMPLETE
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 01 01 43 
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
 UNKNOWN Button 1
-UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/400"
-UNKNOWN PTP Property d101 changed, "aperture" to "10"
 UNKNOWN OLCInfo event 0x0200, 5 bytes: 00 00 00 00 00 
 
 Cancelling...

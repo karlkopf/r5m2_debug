@@ -1,3 +1,9 @@
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
 Camera summary:
 Manufacturer: Canon.Inc
 Model: Canon EOS R5m2
@@ -15,11 +21,20 @@ Device Capabilities:
 	Canon Wifi support
 
 Storage Devices Summary:
+store_00020001:
+	StorageDescription: SD
+	VolumeLabel: 
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read-Write
+	Maximum Capability: 7927234560 (7560 MB)
+	Free Space (Bytes): 6736822272 (6424 MB)
+	Free Space (Images): -1
 
 Device Property Summary:
 Friendly Device Name      (d402 ro str): 'Canon EOS R5m2'
 Perceived Device Type     (d407 ro u32): 1
 Session Initiator Info    (d406 rw str): 'Unknown Initiator'
 [Unknown Property]        (d303 ro u8 ): 1
-Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 60% (60)
+Battery Level             (5001 ro u8 ): Enumeration [100,0,75,0,50] value: 95% (95)
 

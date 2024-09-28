@@ -1,2 +1,8 @@
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
 ERROR: Could not capture image.
 ERROR: Could not capture.
