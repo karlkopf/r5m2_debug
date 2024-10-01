@@ -1,0 +1,27 @@
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
+Waiting for 1 seconds for events from camera. Press Ctrl-C to abort.
+UNKNOWN Camera Status 1
+UNKNOWN StorageInfoChanged 0x00020001
+UNKNOWN PTP Property d11b changed, "availableshots" to "321"
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 4
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 42 
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 41 
+UNKNOWN PTP Property d1b7 changed
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 2
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 3
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
+UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 01 00 00 
+UNKNOWN PTP Property d1c0 changed, "flashcharged" to "0"
+UNKNOWN OLCInfo event 0x0100, 7 bytes: 00 00 00 00 00 00 00 
+UNKNOWN PTP Property d11b changed, "availableshots" to "322"
+UNKNOWN OLCInfo event 0x0010, 4 bytes: 04 02 01 42 
+UNKNOWN PTP Property d1b7 changed

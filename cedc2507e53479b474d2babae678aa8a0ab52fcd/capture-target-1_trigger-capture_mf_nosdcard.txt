@@ -1,0 +1,11 @@
+Waiting for 1 seconds for events from camera. Press Ctrl-C to abort.
+UNKNOWN Camera Status 1
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 4
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 2
+UNKNOWN PTP Property d1c3 changed, "oneshotrawon" to "0"
+UNKNOWN Button 3
+UNKNOWN PTP Property d102 changed, "shutterspeed" to "1/60"
+CAPTURECOMPLETE
+UNKNOWN PTP Property d1b7 changed

@@ -1,0 +1,14 @@
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+error 0x2002
+
+*** Error ***              
+PTP General Error
+*** Error (-1: 'Unspecified error') ***       
+
