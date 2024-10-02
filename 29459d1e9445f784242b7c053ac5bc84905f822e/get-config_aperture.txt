@@ -1,0 +1,21 @@
+Label: Aperture
+Readonly: 0
+Type: RADIO
+Current: 22
+Choice: 0 4
+Choice: 1 4.5
+Choice: 2 5
+Choice: 3 5.6
+Choice: 4 6.3
+Choice: 5 7.1
+Choice: 6 8
+Choice: 7 9
+Choice: 8 10
+Choice: 9 11
+Choice: 10 13
+Choice: 11 14
+Choice: 12 16
+Choice: 13 18
+Choice: 14 20
+Choice: 15 22
+END
